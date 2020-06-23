@@ -47,6 +47,34 @@ To fight the coronavirus not only needs the guidance from the government but als
 - Medical Institutions: Our analysis can help medical institutions know the emotion changes during the COVID-19. Doctors can provide help to people who potential have mental health problem.
 
 - Business Owners: Keeping a watchful eye on trending topics and people’s emotion change can help business owners run marketing campaign appropriately and find out potential business opportunities, such as new services that needed by people. 
+## Our data source including:
+
+Confirmed Cases:
+1. Time searies data of confirmed cases: [Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19) (daily data from 01/16 to 05/02)
+
+Twitter:
+1. Tweets on Twitter retrieved with [TwitterScraper API ](https://github.com/taspinar/twitterscraper) (daily data from 01/20 to 04/26)\
+  **Note**: the daily data is a sample from each day's tweets, not the population. We sampled out abough 13K tweets for each day, 1.3M in total.
+2. Twitter trending topics retrieved by scraping [Trendogate.com](https://trendogate.com) (daily data from 01/20 to 04/11)
+3. Number of tweets with #COVID-19 shared by [Tweet Binder](https://www.tweetbinder.com/blog/covid-19-coronavirus-twitter/) 
+
+News:
+1. #COVID-19 news scraped from [Fox News](https://www.foxnews.com/) (daily data from 01/20 to 04/26)
+2. #COVID-19 news scraped from [CNN](https://www.cnn.com/) (daily data from 01/20 to 04/26)
+
+
+The datasets can be found in folders. **P.S.** Due to the file size limitation set by Github, we did not upload the combined dataset. To combined the datasets in folders, please try:
+```python
+# Read raw datas from the raw data file
+path = r'------path-------------'
+files = os.listdir(path)
+covid_twitter_data = pd.DataFrame()
+# Concat the Twitters data into one-table
+for file in files:
+    data = pd.read_csv(str(path) + file)
+    covid_twitter_data = covid_twitter_data.append(data, ignore_index=True)
+```
+
 
  
 
