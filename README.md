@@ -73,7 +73,18 @@ covid_twitter_data = pd.DataFrame()
 for file in files:
     data = pd.read_csv(str(path) + file)
     covid_twitter_data = covid_twitter_data.append(data, ignore_index=True)
+    
 ```
+## Analysis Methods
+
+### Sentiment Analysis
+
+**TextBlob Polarity & Subjectivity Score**: We utilized [TextBlob](https://textblob.readthedocs.io/en/dev/quickstart.html), a popular NLP library, to conduct sentiment analysis by generating polarity score (negative \[-1 ~ +1] positive) and subjectivity score (objective \[0 ~ 1] subjective). 
+Examples: 
+- 'Great!' Polarity = 1
+- 'This is the worst situation.' Polarity = -1
+- 'It's raining.' Subjectivity = 0
+- 'I love the rain!' Subjectivity = 1
 
 
  
