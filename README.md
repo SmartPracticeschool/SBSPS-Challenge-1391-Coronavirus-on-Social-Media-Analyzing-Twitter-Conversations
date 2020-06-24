@@ -117,5 +117,50 @@ More Specific
 #coronaviruscalifornia
 ```
 
+### API Method using R
+
+1. Acquire API key and token from [Twitter developer website](https://dev.twitter.com) 
+2. Install and load the required R package(s) for collecting and vizualizing Twitter data. Examples: *rtweet, twitteR, vosonSML*. *rtweet* gives most detail in twitter variables (> 90). 
+```
+rtweet, ggmap, igraph, tidyverse, ggraph, ggplot2, data.table, maps, mapdata
+```
+3. Store and check the API keys/tokens
+4. Check token
+5. Search using query
+6. Preview data
+7. Time series plot
+
+---
+
+## Sentiment Analysis
+
+### Preprocessing
+
+1. The Twitter data obtained is converted to a data frame.
+2. The text of the tweets is tokenized, i.e. broken into words. Each row is split such that there is one token (word) in each row of the new data frame.
+3. The stopwords are removed from the data.
+4. The typical keywords are removed from the data.
+5. Sentiment words from the ***Bing Lexicon*** are used for analysing the tweet words.
+
+### Visualization
+
+**Most commonly used words in the tweets**
+
+![common_words](common_words.png)
+
+**Word cloud of the Sentiment words in the tweets**
+
+![sentiment_words](sentiment_words.png)
+
+**Classification of the Sentiment words in the tweets**
+
+![sentiment_words_class](sentiment_words_class.png)
+
+---
+
+## Insights
+
+Overall, the tweets convey a mixed, but slightly optimistic sentiment - with the relatively high frequency of words such as "positive", "safe", "relief", "support".
+The most frequent words are related to "lockdown", "health", "stayhome", "deaths" stood out among the other words, which suggests that people are talking more about the health and deaths, are much more concerned about the measure to deal with it.
 
 
