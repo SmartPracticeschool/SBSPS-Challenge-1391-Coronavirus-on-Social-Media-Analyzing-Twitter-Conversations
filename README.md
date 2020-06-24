@@ -87,6 +87,35 @@ Examples:
 - 'I love the rain!' Subjectivity = 1
 
 
- 
+ # COVID-19 Sentiment Analysis
+
+Using Twitter data to perform sentiment analysis on the tweets on the COVID-19 virus.
+
+## Background
+
+The recent Coronavirus COVID-19 has created a global emergency demanding social distancing, working from home, and self quarantining to control the spread of the virus. As a result, in my spare time I decided to explore how people are reacting and talking about the pandemic online.
+
+## Data
+
+For this project, 10000 tweets with the "COVID-19" related keywords between March 20 to March 28 in 2020 were fetched for analysis.
+
+### Keywords
+
+Generic
+```
+#COVID19
+#covid19
+#coronavirus
+#CoronaVirus
+```
+
+More Specific
+```
+#coronavirustexas
+#Coronavirustexas
+#coronavirusnewyork
+#coronaviruscalifornia
+```
+
 
 
