@@ -213,9 +213,9 @@ Twitter is not only a place for people to respond to others’ tweets but also a
 
 According to the chart above, with the development of COVID-19, the related tweets’ expression became more subjective (from about 0.33 to about 0.35) on average, and people’s feelings became more positive (from about 0.04 to about 0.06) on average. Why did this happen? Why with more and more people being infected with Coronavirus, the sentiment of related tweets went positive? With such questions, we went deep into what actual emotions the tweets reflected and what kinds of topics people talked about when mentioning this disease. 
 
-[Three Emotions of COVID-19 related Tweets](https://public.tableau.com/profile/tarit.sengupta6966#!/vizhome/COVID-19-Social-Media-Analyzing-Twitter-ConversationsTwitterNLPAnalysis_Tarit/Dashboard12_Tarit)
+[Three Emotions of COVID-19 related Tweets](https://public.tableau.com/profile/tarit.sengupta6966#!/vizhome/COVID-19-Social-Media-Analyzing-Twitter-ConversationsTwitterNLPAnalysis_Tarit/Dashboard11_Tarit)
 
-[[Three Emotions of COVID-19 related Tweets]](https://public.tableau.com/profile/tarit.sengupta6966#!/vizhome/COVID-19-Social-Media-Analyzing-Twitter-ConversationsTwitterNLPAnalysis_Tarit/Dashboard12_Tarit)
+[[Five Emotions of COVID-19 related Tweets]](https://public.tableau.com/profile/tarit.sengupta6966#!/vizhome/COVID-19-Social-Media-Analyzing-Twitter-ConversationsTwitterNLPAnalysis_Tarit/Dashboard12_Tarit)
 
 We conducted further analysis by utilizing the BERT model. BERT is Google’s pre-trained model that can be fine-tuned for a wide range of NLP tasks (learn more). Here in our case, it was used in combination with IBM’s Watson Tone Analyzer (learn more) to label the tweets with 5 emotions. The five emotion are: 
 
