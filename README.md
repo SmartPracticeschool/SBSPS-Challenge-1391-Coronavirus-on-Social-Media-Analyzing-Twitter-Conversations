@@ -62,7 +62,7 @@ News:
 1. #COVID-19 news scraped from [Fox News](https://www.foxnews.com/) (daily data from 01/20 to 04/26)
 2. #COVID-19 news scraped from [CNN](https://www.cnn.com/) (daily data from 01/20 to 04/26)
 
-
+## Data: ![alt text](https://drive.google.com/drive/folders/1JiadMomIwZY2c-35ZA3I1SGk0bcfGnWA?usp=sharing)
 The datasets can be found in folders. **P.S.** Due to the file size limitation set by Github, we did not upload the combined dataset. To combined the datasets in folders, please try:
 ```python
 # Read raw datas from the raw data file
