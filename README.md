@@ -271,34 +271,35 @@ The same trend of news topics applies here as the trend of tweets mentioning COV
 When analyzing the sentiments, we can see an increasing positivity in most topics. 
 The topic that has the highest positivity is still about Life during COVID-19. And one trend that has the fastest positivity growth rate is the sentiment about stay at home, which echoes the point brought above that people are getting less sensitive during the quarantine. 
 For the debating topic about the facial mask and the stay at home, we can see the polarity went down first at the beginning of the COVID-19 outbreak but went up later during March. The tweets talking about government-related issues tended to have a very fluctuant sentiment trend line, and the polarity went down on the whole. Recently, more and more tweets talking about economic impacts, such as layoffs and unemployment, but the overall sentiment trend towards positive. For the game season, many games were canceled due to the coronavirus so the sentiment of those tweets was not very positive. Lastly, the tweets mentioning ‘China’ became more negative over time. 
+### Video: https://drive.google.com/file/d/1Fr15iplneN0LkoAYbFMDHriQzV8HUzls/view?usp=sharing
 
 ### Dashboard Link
-Sentiment Analysis:
+### Sentiment Analysis:
 https://public.tableau.com/profile/tarit.sengupta6966#!/vizhome/COVID-19-Social-Media-Analyzing-Twitter-ConversationsTwitterNLPAnalysis_Tarit/Dashboard12_Tarit
 
-Sentiment Distribution & Top Words in Positive Tweets: 
+### Sentiment Distribution & Top Words in Positive Tweets: 
 https://public.tableau.com/profile/tarit.sengupta6966#!/vizhome/COVID-19-Social-Media-Analyzing-Twitter-ConversationsTwitterNLPAnalysis_Tarit/Dashboard11_Tarit
 
-Likes, Replies, & Retweets:
+### Likes, Replies, & Retweets:
 https://public.tableau.com/profile/tarit.sengupta6966#!/vizhome/COVID-19-Social-Media-Analyzing-Twitter-ConversationsTwitterNLPAnalysis_Tarit/Dashboard6_Tarit
 
-IBM HACK2020-Twitter NLP Analysis:
+### IBM HACK2020-Twitter NLP Analysis:
 https://public.tableau.com/profile/tarit.sengupta6966#!/vizhome/COVID-19-Social-Media-Analyzing-Twitter-ConversationsTwitterNLPAnalysis_Tarit/TwitterNLPAnalysis_TARIT
 
-Topic Sentiment:
+### Topic Sentiment:
 https://public.tableau.com/profile/tarit.sengupta6966#!/vizhome/COVID-19-Social-Media-Analyzing-Twitter-ConversationsTwitterNLPAnalysis_Tarit/Topic_Sentiment_Tarit
 
-Overall Sentiment Change: 
+### Overall Sentiment Change: 
 https://public.tableau.com/profile/tarit.sengupta6966#!/vizhome/COVID-19-Social-Media-Analyzing-Twitter-ConversationsTwitterNLPAnalysis_Tarit/Sentiment_Trend
 
-COVID-19 Cases: 
+### COVID-19 Cases: 
 https://public.tableau.com/profile/tarit.sengupta6966#!/vizhome/COVID-19-Social-Media-Analyzing-Twitter-ConversationsTwitterNLPAnalysis_Tarit/Confirmed_Case_Dashboard
 
-Overall Sentiment:
+### Overall Sentiment:
 https://public.tableau.com/profile/tarit.sengupta6966#!/vizhome/COVID-19-Social-Media-Analyzing-Twitter-ConversationsTwitterNLPAnalysis_Tarit/Tarit_COVID19_Dashboard2
 
-Overall Sentiment Change:
+### Overall Sentiment Change:
 https://public.tableau.com/profile/tarit.sengupta6966#!/vizhome/COVID-19-Social-Media-Analyzing-Twitter-ConversationsTwitterNLPAnalysis_Tarit/Tarit_COVID19_Dashboard1
 
-Tweets Sentiment Visualization:
+### Tweets Sentiment Visualization:
 https://public.tableau.com/profile/tarit.sengupta6966#!/vizhome/COVID19TwitterSentimentAnalysisIBMHACKTARIT/IBMHackTarittwittersentimentanalysis_Dashboard?publish=yes
